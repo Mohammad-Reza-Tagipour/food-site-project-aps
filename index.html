@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/FONT-AWSOME/CSS/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+
+    <style>
+      /* ul li {
+        list-style: none;
+      } */
+      /* .row {
+              gap: 4px;
+            } */
+      /* .card-body {
+        padding-top: 10px !important;
+      }
+      .card-shadow {
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+        padding: 20px 26px !important;
+        border-radius: 10px;
+      }
+      img {
+        border: none;
+        border-radius: 5px !important;
+      }
+      .button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      } */
+      /* .fav-heart {
+              width: 30px;
+            } */
+      /* .card-title {
+        font-size: 13.4px;
+      }
+      .low-part-container {
+        justify-content: space-between;
+        margin-left: -20px;
+      }
+      .button {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        float: left !important;
+        margin: 0 5px;
+        overflow: hidden;
+        background-color: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.973);
+        color: rgb(214, 184, 10);
+        transition: all 0.3s ease-out;
+        padding-left: 4px;
+      }
+      .button:hover,
+      .button:active {
+        width: 80px;
+        color: rgb(214, 184, 10);
+        text-decoration: none !important;
+        padding: 0 !important;
+      }
+      .button:hover .fav {
+        text-decoration: none !important;
+      }
+      .icon:active,
+      .icon i {
+        color: rgb(214, 184, 10) !important;
+      } */
+      /* .icon { */
+      /* display: inline-block;
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 40px; */
+      /* text-decoration: none; */
+      /* } */
+      /* .icon i {
+        font-size: 20px;
+        line-height: 30px; */
+      /* text-decoration: none !important; */
+      /* border: none; */
+      /* }
+      .button .fav:hover {
+        text-decoration: none !important;
+        border: none !important;
+      }
+      .button span {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-left: 5px;
+      }
+      .btn,
+      .btn:hover,
+      .btn:active {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .card-text {
+        font-size: 13px;
+        text-align: left;
+      }
+      .subheading {
+        text-align: right;
+        margin: 10px 0 20px 0;
+
+        border-bottom: 3px solid rgb(214, 184, 10);
+        display: inline-block !important;
+        font-size: 20px;
+      }
+      .follow-us {
+        text-align: right;
+      }
+
+      .social-logos {
+        gap: 50px;
+      }
+      @media screen and (max-width="985px") {
+        .social-logos {
+        }
+      }
+      .social-logos li i {
+        font-size: 30px;
+      }
+      footer {
+        background: rgb(0, 0, 0);
+        color: #fff;
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar d-flex justify-content-between bg-white">
+        <ul class="d-flex p-0 navigation">
+          <li class="align-middle">
+            <a class="nav-link" href="#"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="">
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-utensils"></i
+            ></a>
+          </li>
+          <li class="">
+            <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+          </li>
+          <li class="">
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </li>
+        </ul>
+        <button
+          class="btn btn-outline-success p-2 my-2 my-sm-0 text-dark border-dark"
+          type="submit"
+        >
+          <i class="nav-btn fa-solid fa-user"></i>
+          ثبت نام/ورود
+        </button>
+      </nav>
+      <img class="hero-image w-100 card-img" src="/img/image.jpg" alt="" />
+    </header>
+    <main class="container mt-3 mb-5">
+      <section class="row margin-top">
+        <div class="col-12 col-md-6 col-lg-3 mb-2 col-parent">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-danger p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/1.jpg"
+              alt="Card image cap "
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                پیتزا پپرونی(۲۳ سانتی متری)
+              </h5>
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۲۹,۰۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2 shadow">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-secondary p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star gray-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/2.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">پیتزا مرغ(۲۳ سانتی متری)</h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۲۶,۵۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-danger p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/3.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                پیتزا گوشت و قارچ(۲۳ سانتی متری)
+              </h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۲۹,۰۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-secondary p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star gray-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/4.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                پیتزا سبزیجات(۲۰ سانتی متری)
+              </h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۲۴,۵۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+      <div class="text-right">
+        <p class="subheading align-items-right">برگرها</p>
+      </div>
+      <section class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-2 col-parent">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-danger p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/5.jpg"
+              alt="Card image cap "
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">ماشروم برگر</h5>
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۱۷,۰۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2 shadow">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-danger p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/6.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">گریل چیکن</h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">تومان۱۰۲,۰۰۰</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-secondary p-0 bg-grey" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star gray-star"></i></li>
+                <li><i class="fa-solid fa-star gray-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/7.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">برگر</h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text" dir="rtl">۱۰۸,۰۰۰تومان</p>
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-2 col-2 pull-right">
+          <section class="card-shadow">
+            <div class="d-flex justify-content-between mb-3">
+              <button class="btn fs-0 btn-danger p-0" href="#">
+                پیشنهاد ویژه
+              </button>
+              <ul class="star-icons align-self-start d-flex">
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+                <li><i class="fa-solid fa-star yellow-star"></i></li>
+              </ul>
+            </div>
+            <img
+              class="img-thumbnail mt-2 rounded-3 card-img p-0"
+              src="/img/8.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">چیکن کریسبی</h5>
+
+              <section class="low-part-container d-flex">
+                <p class="card-text">تومان۱۱۸,۰۰۰</p>
+
+                <section class="d-flex align-items-end">
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-heart"></i>
+                    </div>
+                    <span class="fav">علاقه</span>
+                  </a>
+                  <a href="#" class="button fav-heart btn-dark float-end">
+                    <div class="icon">
+                      <i class="fa-solid heart yellow fa-utensils"> </i>
+                    </div>
+                    <span class="fav">سفارش</span>
+                  </a>
+                </section>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <section>
+      <footer class="mt-5">
+        <div class="container p-5">
+          <div class="row justify-content-between text-right">
+            <div class="about-us col-lg-8 col-xs-12 mb-4 mb-md-0">
+              <h5>درباره ما</h5>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
+                زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-xs-12 mb-4 mb-md-0 text-right logo-section"
+            >
+              <p class="follow-us text-right">
+                ما را در شبکه اجتماعی دنبال کنید
+              </p>
+              <ul
+                class="d-flex social-logos justify-content-end ml-2 justify-content-xs-between"
+              >
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-telegram text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-linkedin text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-instagram text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-brands fa-twitter text-white"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

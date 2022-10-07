@@ -1,0 +1,228 @@
+/* * {
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+body {
+  font-family: "IRANSans" !important;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li:hover {
+  text-decoration: none !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.nav-link {
+  color: grey;
+  margin-right: -12px;
+  margin-top: 10px;
+}
+i {
+  padding: 0;
+  display: inline-block !important;
+}
+.navigation {
+  gap: 13px;
+}
+.nav-link:link {
+  display: inline-block;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #111;
+}
+
+.btn-outline-success:hover {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+.navbar {
+  padding: -40px -10px !important;
+}
+
+.hero-image {
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 86%) !important;
+}
+
+.section-cards {
+  margin-top: -55px !important;
+}
+.margin-top {
+  margin-top: -4rem !important;
+}
+.card-top-btn {
+  background: rgb(179, 18, 18) !important;
+  color: rgb(255, 255, 255) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  padding: 5px 1px !important;
+  border: none !important;
+  /* width: 35% !important;/*/
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+  margin-bottom: 18px !important;
+}
+.Card-btn-p span {
+  padding: 0;
+}
+.card-top-btn {
+  cursor: pointer;
+}
+.card {
+  width: 5rem !important;
+}
+
+.yellow-star {
+  color: rgb(214, 184, 10);
+}
+.gray-star {
+  color: rgb(114, 114, 114);
+}
+
+/* .card-img {
+  border-radius: 14px !important;
+} */
+.card-title {
+  text-align: center !important;
+  margin-top: 1rem !important;
+  font-size: 16px;
+}
+.card-row {
+  margin: 0 0 !important;
+}
+.btn-danger {
+  background-color: rgb(179, 18, 18) !important;
+  padding: 10px 0 !important;
+}
+ul li {
+  list-style: none;
+}
+/* .row {
+        gap: 4px;
+      } */
+.card-body {
+  padding-top: 10px !important;
+}
+.card-shadow {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px 26px !important;
+  border-radius: 10px;
+}
+img {
+  border: none;
+  border-radius: 5px !important;
+}
+.button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* .fav-heart {
+        width: 30px;
+      } */
+.card-title {
+  font-size: 13.4px;
+}
+.low-part-container {
+  justify-content: space-between;
+  margin-left: -20px;
+}
+.button {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: left !important;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.973);
+  color: rgb(214, 184, 10);
+  transition: all 0.3s ease-out;
+  padding-left: 4px;
+}
+.button:hover,
+.button:active {
+  width: 80px;
+  color: rgb(214, 184, 10);
+  text-decoration: none !important;
+  padding: 0 !important;
+}
+.fav {
+  color: rgb(214, 184, 10);
+}
+.button:hover .fav {
+  text-decoration: none !important;
+  color: rgb(214, 184, 10);
+}
+.icon:active,
+.icon i {
+  color: rgb(214, 184, 10) !important;
+}
+.icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 40px;
+  /* text-decoration: none; */
+}
+.icon i {
+  font-size: 20px;
+  line-height: 30px;
+  /* text-decoration: none !important; */
+  /* border: none; */
+}
+.button .fav:hover {
+  text-decoration: none !important;
+  border: none !important;
+}
+.button span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 5px;
+}
+/* .btn,
+.btn:hover,
+.btn:active {
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+.card-text {
+  font-size: 13px;
+  text-align: left;
+}
+.subheading {
+  text-align: right;
+  margin: 10px 0 20px 0;
+
+  border-bottom: 3px solid rgb(214, 184, 10);
+  display: inline-block !important;
+  font-size: 20px;
+}
+.follow-us {
+  text-align: right;
+}
+
+.social-logos {
+  gap: 50px;
+}
+
+.social-logos li i {
+  font-size: 30px;
+}
+footer {
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
